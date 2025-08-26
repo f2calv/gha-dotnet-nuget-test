@@ -1,4 +1,5 @@
 ﻿using Xunit;
+
 namespace CasCap.Tests;
 
 public class MyTests
