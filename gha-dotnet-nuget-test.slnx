@@ -1,4 +1,11 @@
 ﻿<Solution>
-  <Project Path="src/CasCap.NuGetTestLib.Tests/CasCap.NuGetTestLib.Tests.csproj" />
-  <Project Path="src/CasCap.NuGetTestLib/CasCap.NuGetTestLib.csproj" />
+  <Folder Name="/gha-dotnet-nuget-test/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/gha-dotnet-nuget-test/">
+    <Project Path="src/CasCap.NuGetTestLib.Tests/CasCap.NuGetTestLib.Tests.csproj" />
+    <Project Path="src/CasCap.NuGetTestLib/CasCap.NuGetTestLib.csproj" />
+  </Folder>
 </Solution>
